@@ -3,7 +3,7 @@ const cors =require('cors');
 const app =express();
 const mongoose =require('mongoose');
 
-mongoose.connect("mongodb://localhost:27017/crud",(err)=>{
+mongoose.connect("mongodb+srv://gowtham:0605199574@cluster0.ogf6xw3.mongodb.net/crud?retryWrites=true&w=majority",(err)=>{
     if(!err){
         console.log('db connected sucesfully')
     }
